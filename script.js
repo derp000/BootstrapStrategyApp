@@ -1,3 +1,7 @@
+window.onbeforeunload = () => {
+    return "Please do not reload.";
+};
+
 // Make sure third party cookies aren't blocked
 if (typeof myList == "undefined") {
     var myList = [
